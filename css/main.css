@@ -24,6 +24,13 @@
             border-radius: 10px;
         }
         
+  
+        @media (max-width: 560px) {
+            .login-box {
+ width: 330px;
+
+            }
+        }
         .login-box h2 {
             margin: 0 0 30px;
             padding: 0;
@@ -75,7 +82,13 @@
             border: 1px solid #8F7CEC;
             margin: auto;
         }
-        
+        @media (max-width: 560px) {
+            #submit {
+             padding: 9px 10px;
+             margin: 0 8px;
+              
+            }
+        }
         #submit:hover {
             background: #8F7CEC;
             color: #fff;
